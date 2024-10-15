@@ -8,11 +8,18 @@ body {
 }
 
 /* header */
-
+header {
+    font-size: larger;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    background-color:#9A5C94;
+}
 
 /* Navigation ----------*/
 nav ul {
     font-size: large;
+    color: #9A5C94;
     display: flex;
     list-style: none;
     margin: 0;
@@ -22,5 +29,8 @@ nav ul {
 nav li {
     margin: 0;
     padding: 5px;
+}
+a {
+    color: #9A5C94;
 }
 
