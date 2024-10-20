@@ -1,0 +1,35 @@
+/* navigation*/
+nav ul {
+    font-size: large;
+    color: #9A5C94;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+nav li {
+    margin: 0;
+    padding: 5px;
+}
+a {
+    color: #9A5C94;
+}
+/*header*/
+header {
+    color:whitesmoke;
+    background-color: 9A5C94;
+    font-size:large
+}
+
+/*photos of my artwork*/
+div.artwork {
+    flex-grow: 1;
+    margin: 5px;
+    padding: 5px;
+}
+
+div.artwork > img {
+    border: 5px solid #9A5C94;
+    border-radius: 10px;
+}
