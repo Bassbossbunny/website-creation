@@ -38,16 +38,19 @@ a {
 div#Showcase {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
 }
 div.artwork {
     flex-grow: 1;
     margin: 5px;
     padding: 5px;
+    
 }
 
 div.artwork > img {
     border: 5px solid #9A5C94;
     border-radius: 10px;
+    
 }
 
 .logo {
