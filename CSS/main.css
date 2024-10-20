@@ -66,6 +66,19 @@ div.artwork > img {
     border-radius: 10px;
     
 }
+
+div.gallery > img {
+flex: 1;    
+   
+}
+
+div#final-bond {
+    flex-direction: row;
+}
+div.spacer {
+    flex: 1;
+}
+
 /*logo*/
 
 .logo {
