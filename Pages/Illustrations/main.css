@@ -30,7 +30,3 @@ div.artwork {
 
 }
 
-div.artwork > img {
-    border: 5px solid #9A5C94;
-    border-radius: 10px;
-}

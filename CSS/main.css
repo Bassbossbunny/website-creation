@@ -42,8 +42,8 @@ div#Showcase {
 }
 div.artwork {
     flex-grow: 1;
-    margin: 5px;
-    padding: 5px;
+    margin: 1px;
+    padding: 1px;
     
 }
 
@@ -52,6 +52,7 @@ div.artwork > img {
     border-radius: 10px;
     
 }
+/*logo*/
 
 .logo {
     display: block;
