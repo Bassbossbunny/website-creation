@@ -49,3 +49,15 @@ div.artwork > img {
     border: 5px solid #9A5C94;
     border-radius: 10px;
 }
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slogan {
+    color: #b700a5;
+   text-align: center;
+   font-size: large;
+}
