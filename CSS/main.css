@@ -52,13 +52,13 @@ a {
 div#Showcase {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
-}
-div.artwork {
-    flex-grow: 1;
-    margin: 1px;
-    padding: 1px;
+    justify-content: space-between;
     
+}
+
+section#collection {
+font-size: 2em;
+
 }
 
 div.artwork > img {
@@ -67,9 +67,20 @@ div.artwork > img {
     
 }
 
+/* Gallery alignments & Padding*/
+div.gallery {
+    display: flex;
+    flex-direction: column;
+      
+}
+
+div.gallery img {
+    width: 50%;
+    align-items: center;
+}
+
 
 /*logo*/
-
 .logo {
     display: block;
     margin-left: auto;
