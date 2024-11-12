@@ -5,16 +5,25 @@ body {
   
   h1 {
     font-size: 2.5em;
+    font-family: "Cinzel", serif;
   }
   
   h2 {
     font-size: 1.875em;
+    font-family: "Cinzel", serif;
   }
   
   p {
     font-size: 1em;
   }
 /* font */
+
+.cinzel-gothy {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+  }
 
 .dancing-script-CustomFont {
   font-family: "Dancing Script", cursive;
