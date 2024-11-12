@@ -14,11 +14,25 @@ body {
   p {
     font-size: 1em;
   }
+/* font */
+
+.dancing-script-CustomFont {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
 
 /* Body */
 body {
     font-family: serif;
 }
+
+/* font */
+body {
+    font-family: 'Playfair Display', serif;
+}
+
 }
 
 /* header */
@@ -69,6 +83,28 @@ nav a:hover::after {
     visibility: visible;
     transform: scaleX(1);
 }
+
+/*illustration page*/
+
+.overlay-section {
+    position: relative;
+    color: #FFFFFF;
+    background-image: url('/Pages/Photo-webpage/BlackFox.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.overlay-section h2 {
+    font-size: 2.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
 
 
 /*Showcase alignments and padding*/
@@ -138,6 +174,7 @@ div.artwork > img {
 
 
 
+
 /*logo*/
 .logo {
     display: block;
@@ -159,4 +196,169 @@ ol > li::marker {
 
   body {
     background: linear-gradient(to bottom, #f0f8ff, #9A5C94);
+}
+
+/*About me page elements*/
+
+.about-me {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #2a2a2a;
+    font-family: 'Georgia', serif; 
+}
+
+.about-me h2 {
+    font-size: 2.2em;
+    color: #9A5C94;
+    margin-bottom: 10px;
+    font-family: 'Garamond', serif;
+    letter-spacing: 1px;
+}
+
+.about-me p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+.about-me em {
+    color: #9A5C94; 
+    font-style: italic;
+}
+
+.about-me strong {
+    color: #4a4a4a; 
+}
+
+.about-me p:last-child {
+    font-style: italic; 
+    font-size: 1.1em;
+}
+
+/*Creative process page elements*/
+
+section {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+
+h3 {
+    color: #561c50;
+    font-family: 'Garamond', serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #9A5C94;
+    margin: 20px auto;
+    width: 50%;
+}
+
+ul, ol {
+    margin-left: 40px;
+}
+
+ul li, ol li {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #242323;
+}
+
+
+.emphasis {
+    font-style: italic;
+    color: #9A5C94;
+}
+
+
+
+.process ol li {
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+
+
+/*line break thingy*/
+.styled-hr {
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, #9A5C94, #e0b7d6); 
+    margin: 40px 0;
+    opacity: 0.8;
+}
+
+/*Thank you message*/
+.thank-you {
+    text-align: center;
+    font-size: 1.2em;
+    color: #2a2a2a; 
+    padding: 20px;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #351532; 
+    color: #ffffff; 
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: Arial, sans-serif;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+footer .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+footer .social-links li a {
+    color: #a4589a;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+footer .social-links li a:hover {
+    color: #ffffff; 
+}
+
+footer a {
+    color: #a4589a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ffffff; 
 }
