@@ -201,6 +201,34 @@ ol > li::marker {
     font-weight: bold;
   }
 
+/* Hello user style*/
+#Hello-User {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+
+/* Morning */
+.morning {
+    background-color: #faacbf; 
+    color: #f4f4f4; 
+}
+
+/* Afternoon */
+.afternoon {
+    background-color: #f7c48e; 
+    color: #ef7432; 
+}
+
+/* Evening  */
+.evening {
+    background-color: #1f3143; 
+    color: #7edef6; 
+}
+
+
+
   /* general page elements */
 
   body {
