@@ -1,5 +1,5 @@
 // Adding current date to footer
-window.onload = function() {
+window.onload = function footerFunction() {
     const currentYear = new Date().getFullYear();  
 
     const fullDate = new Date().toLocaleString();  
