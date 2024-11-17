@@ -32,9 +32,10 @@ window.onload = function() {
 
 //button stuff, on about me page
 
-window.onload = function() {
+window.onload = function loadButton() {
+    console.log("buttons are stupid")
     const FoxMotif = document.getElementById("btn-alert");
-    FoxMotif.onclick = function() {
+    FoxMotif.onclick = function alertfuction() {
         alert("Careful, I bite!");
     };
 };
