@@ -29,3 +29,12 @@ window.onload = function() {
         HelloContainer.classList.add("evening");
     }
 };
+
+//button stuff, on about me page
+
+window.onload = function() {
+    const FoxMotif = document.getElementById("btn-alert");
+    FoxMotif.onclick = function() {
+        alert("Careful, I bite!");
+    };
+};

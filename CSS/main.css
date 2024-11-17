@@ -227,6 +227,17 @@ ol > li::marker {
     color: #7edef6; 
 }
 
+/* button adjustements and stuff*/
+#btn-alert {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+#btn-alert:hover {
+opacity: 0.8;
+}
 
 
   /* general page elements */
