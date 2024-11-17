@@ -1,10 +1,12 @@
 // Adding current date to footer
-window.onload = function footerFunction() {
-    const currentYear = new Date().getFullYear();  
+window.onload = function() {
 
+    const currentYear = new Date().getFullYear();  
     const fullDate = new Date().toLocaleString();  
 
     document.getElementById('current-year').textContent = currentYear;
+
+    document.getElementById('full-date').textContent = "Current Date: " + fullDate;
 
     // Date to Console
     console.log("Current Date: " + fullDate);
@@ -31,11 +33,9 @@ window.onload = function() {
 };
 
 //button stuff, on about me page
-
-window.onload = function loadButton() {
-    console.log("buttons are stupid")
-    const FoxMotif = document.getElementById("btn-alert");
-    FoxMotif.onclick = function alertfuction() {
-        alert("Careful, I bite!");
+const FoxMotif = document.getElementById("btn-alert");
+    if (FoxMotif) {  // Check if the button exists on the page
+        FoxMotif.onclick = function() {
+            alert("Careful, I bite!");
+        };
     };
-};
