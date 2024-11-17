@@ -229,6 +229,7 @@ ol > li::marker {
 
 /* button adjustements and stuff*/
 #btn-alert {
+    opacity: 0.5;
     display: block;
     margin: 0 auto;
     max-width: 300px;
@@ -236,7 +237,7 @@ ol > li::marker {
     cursor: pointer;
 }
 #btn-alert:hover {
-opacity: 0.8;
+opacity: 1;
 }
 
 
@@ -308,7 +309,7 @@ hr {
     height: 2px;
     background: #9A5C94;
     margin: 20px auto;
-    width: 50%;
+    width: 100%;
 }
 
 ul, ol {
@@ -339,6 +340,7 @@ ul li, ol li {
 /*line break thingy*/
 .styled-hr {
     border: none;
+    width: 100%;
     height: 4px;
     background: linear-gradient(to right, #9A5C94, #e0b7d6); 
     margin: 40px 0;
