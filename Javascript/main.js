@@ -1,21 +1,23 @@
+
+
 // Adding current date to footer
-window.onload = function() {
-
+document.addEventListener('DOMContentLoaded', function() {
     const currentYear = new Date().getFullYear();  
-    const fullDate = new Date().toLocaleString();  
-
+    const fullDate = new Date().toLocaleString(); 
     document.getElementById('current-year').textContent = currentYear;
 
-    document.getElementById('full-date').textContent = "Current Date: " + fullDate;
-
-    // Date to Console
+  
+    // Log to console
     console.log("Current Date: " + fullDate);
-};
+}
+);
+
 
 // Hello User - based on time of day
 
 window.onload = function() {
-    const currentHour = new Date().getHours(); // reminder!! it is a 0-23. JS is zero indexed!!!
+    const currentHour = new Date().getHours(); 
+    // reminder!! it is a 0-23. JS is zero indexed!!!
     const HelloMessage = document.getElementById("Hello-Message");
     const HelloContainer = document.getElementById("Hello-User");
 
@@ -34,7 +36,7 @@ window.onload = function() {
 
 //button stuff, on about me page
 const FoxMotif = document.getElementById("btn-alert");
-    if (FoxMotif) {  // Check if the button exists on the page
+    if (FoxMotif) {  
         FoxMotif.onclick = function() {
             alert("Careful, I bite!");
         };
