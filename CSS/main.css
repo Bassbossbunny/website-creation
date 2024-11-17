@@ -98,7 +98,7 @@ nav a:hover::after {
 .overlay-section {
     position: relative;
     color: #FFFFFF;
-    background-image: url('/Pages/Photo-webpage/BlackFox.png');
+    background-image: url('../Pages/Photo-webpage/BlackFox.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
