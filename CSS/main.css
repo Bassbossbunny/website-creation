@@ -228,6 +228,16 @@ ol > li::marker {
 }
 
 /* button adjustements and stuff*/
+#textbutton {
+    display: block;
+    margin: 0 auto ;
+    max-width: 300px;
+    height: auto;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+}
+
 #btn-alert {
     opacity: 0.5;
     display: block;

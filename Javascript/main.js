@@ -25,9 +25,11 @@ window.onload = function() {
     if (currentHour < 12) {
         HelloMessage.textContent = "Well, don't you look lovely this morning!";
         greetingContainer.classList.add("morning");
+
     } else if (currentHour >= 12 && currentHour < 17) {
         HelloMessage.textContent = "Such a lovely afternoon to look at some art!";
         HelloContainer.classList.add("afternoon");
+
     } else {
         HelloMessage.textContent = "Up late, are we? Hope you have a lovely evening!";
         HelloContainer.classList.add("evening");
@@ -35,9 +37,26 @@ window.onload = function() {
 };
 
 //button stuff, on about me page
+
+const WarningButton = document.getElementById("textbutton");
+if (WarningButton){
+    WarningButton.onmouseover = function() {
+        WarningButton.innerText = "DANGER";
+        WarningButton.style.backgroundColor = "red"
+    };
+    WarningButton.onmouseout = function() {
+        WarningButton.innerText = "Warning";
+         WarningButton.style.backgroundColor = "black"
+    };
+    WarningButton.onclick = function() {
+        alert("Don't touch the fox. She bites...")
+    };
+
+}
+
 const FoxMotif = document.getElementById("btn-alert");
     if (FoxMotif) {  
         FoxMotif.onclick = function() {
-            alert("Careful, I bite!");
+            alert("*CHOMP*");
         };
     };
